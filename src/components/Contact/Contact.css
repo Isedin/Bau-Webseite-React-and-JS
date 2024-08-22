@@ -1,0 +1,127 @@
+#contact {
+	overflow: hidden;
+}
+
+#contact .container {
+	display: flex;
+	gap: 2rem;
+}
+
+#contact .contact_form {
+	background: linear-gradient(
+		to bottom right,
+		var(--color-ui-primary),
+		var(--color-ui-secondary)
+	);
+	padding: 2.5rem;
+	border-radius: var(--radius-3);
+	width: 100%;
+	max-width: 500px;
+	box-shadow: var(--shadow-1);
+}
+
+#contact .title {
+	font-size: 2.5rem;
+	text-align: left;
+}
+
+#contact .row {
+	display: flex;
+	gap: 1.2rem;
+	justify-content: space-between;
+}
+
+#contact .control {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	margin: 20px 0;
+	background: var(--color-ui-primary);
+	border-radius: var(--radius-2);
+	color: var(--color-text);
+	font-size: 1rem;
+	overflow: hidden;
+	transition: var(--transition);
+	border: var(--gray-border);
+	border-width: 2px;
+	resize: none;
+}
+
+input {
+	height: 50px;
+}
+
+#contact .control:focus {
+	border-color: var(--color-ui-primary);
+}
+
+#contact .contact_form_bottom {
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+#contact .contact_options {
+	display: flex;
+	gap: 1rem;
+	flex-direction: column;
+	flex: 1;
+}
+
+#contact .contact_options .option {
+	border-radius: var(--radius-3);
+	background: linear-gradient(
+		to bottom right,
+		var(--color-ui-primary),
+		var(--color-ui-secondary)
+	);
+	box-shadow: var(--shadow-1);
+	transition: var(--transition);
+	padding: 1.2rem;
+	text-align: center;
+}
+
+#contact .contact_options .option:hover {
+	/* transform: translateY(-5px); */
+	transform: scale(0.98);
+	border-color: var(--color-primary);
+	background: linear-gradient(
+		to bottom right,
+		var(--color-ui-secondary) var(--color-ui-primary)
+	);
+}
+
+#contact .contact_options .icon_container {
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.2rem;
+	background: var(--color-ui-primary);
+	border-radius: var(--radius-5);
+}
+
+#contact .contact_options .name {
+	font-size: 1rem;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+#contact .contact_options .text_muted {
+	font-size: 1rem;
+}
+
+#contact .contact_options .btn {
+	margin-top: 1.2rem;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	#contact .container {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	#contact .contact_form {
+		max-width: 100%;
+		padding: 20px;
+	}
+}

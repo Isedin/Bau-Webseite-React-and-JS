@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 0.6rem 1.2rem;
+  position: relative;
+  z-index: 300;
+}
+
+.navbar .logo .name {
+  color: var(--color-text);
+}
+
+.navbar .logo .name span {
+  color: var(--color-white);
+}
+
+.navbar.visible {
+  position: sticky;
+  background: var(--color-ui-secondary);
+  box-shadow: var(--shadow-1);
+}
+
+.navbar.visible .logo .name span {
+  color: var(--color-primary);
+}
+
+.navbar .box {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.navbar .nav_tabs .tab {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  color: var(--color-white);
+  border-radius: var(--radius-3);
+}
+
+.navbar.visible .nav_tabs .tab {
+  color: var(--color-text);
+}
+
+.navbar.visible .nav_tabs .tab {
+  color: var(--color-text);
+}
+
+.navbar .nav_tabs .tab.active {
+  color: var(--color-white);
+  background: var(--gradient-1);
+}
+
+.navbar .contact_btn {
+  background: var(--gradient-1);
+  color: var(--color-white);
+}
+
+.navbar .cancel_btn,
+.navbar .menu_btn {
+  display: none;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.navbar .cancel_btn {
+  position: absolute;
+  top: 0.6rem;
+  right: 1.2rem;
+}
+
+.navbar .menu_btn {
+  font-size: 2rem;
+}
+
+.sidebar_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(1, 1, 1, 0.5);
+  z-index: 200;
+  display: none;
+  min-height: 100vh;
+}
+
+/* Responsive code */
+@media (max-width: 1000px) {
+  .navbar .nav_tabs {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    background: var(--color-ui-secondary);
+    display: block;
+    z-index: 350;
+    min-height: 100vh;
+    max-width: 350px;
+    transition: var(--transition);
+    padding: 20px;
+    padding-top: 60px;
+  }
+
+  .navbar .nav_tabs.open {
+    left: 0;
+  }
+  .navbar .nav_tabs .tab {
+    color: var(--color-text);
+  }
+  .navbar .cancel_btn,
+  .navbar .menu_btn {
+    display: flex;
+  }
+  .sidebar_overlay {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar .contact_btn {
+    display: none;
+  }
+}

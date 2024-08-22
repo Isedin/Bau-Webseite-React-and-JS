@@ -1,0 +1,76 @@
+#project .project_top {
+	padding: 0 20px;
+}
+
+#project .slick-track {
+	display: flex !important;
+}
+
+#project .project_container {
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+#project .slick-slide {
+	height: inherit !important;
+	transition: var(--transition);
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+#project .slick-slide > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+	background: var(--gradient-1);
+	align-items: stretch;
+}
+
+#project .slick-slide:hover img {
+	transform: scale(1.2);
+}
+
+#project .slick-slide .image_container {
+	overflow: hidden;
+	flex: 1;
+}
+
+#project .slick-slide .box {
+	padding: 0 20px;
+	color: var(--color-white);
+}
+
+#project .slick-slide .details {
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-backdrop-filter: blur(100px);
+	backdrop-filter: blur(100px);
+	transition: var(--transition);
+}
+
+#project .slick-slide:hover .details {
+	left: 0;
+}
+
+#project .slick-slide .details btn {
+	margin-top: 20px;
+}
+
+#project .slick-slide .name {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 20px 0;
+}
