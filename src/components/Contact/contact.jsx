@@ -96,7 +96,9 @@ const Contact = () => {
 				<div className="contact_options">
 					{contacts.map((contact, index) => (
 						<div className="option" key={index}>
-							<div className="icon_container">{contact.icon}</div>
+							<div className="icon_container">
+							<a href={contact.href}>{contact.icon}</a>
+							</div>
 							<a href={contact.href}></a>
 							<h3 className="name">{contact.name}</h3>
 							<h4 className="text_muted">{contact.value}</h4>

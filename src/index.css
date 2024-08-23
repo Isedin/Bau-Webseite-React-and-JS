@@ -53,6 +53,9 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-ui-primary);
 	overscroll-behavior: contain;
+	max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 body {
