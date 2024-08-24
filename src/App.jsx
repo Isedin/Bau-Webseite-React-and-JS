@@ -4,7 +4,6 @@ import About from "./components/About/about"
 import Services from "./components/Services/services"
 import Teams from "./components/Teams/teams"
 import Project from "./components/Project/project"
-import Testimonial from "./components/Testimonial/testimonial"
 import Blog from "./components/Blog/blog"
 import Contact from "./components/Contact/contact"
 import Footer from "./components/Footer/footer"
@@ -21,7 +20,6 @@ function App() {
     <Services />
     <Teams />
     <Project />
-    {/* <Testimonial /> */}
     <Blog />
     <Contact />
     <Footer />

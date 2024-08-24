@@ -12,10 +12,6 @@ import { GrUserManager } from "react-icons/gr";
 import {
 	schalungsbauer,
 	Sichtbetontreppen,
-	profile2,
-	profile3,
-	profile4,
-	profile5,
 	baustellensohle,
 	maurerarbeiten,
 	building_5,
@@ -141,7 +137,7 @@ export const teams = [
 
 export const projects = [
 	{
-		title: "Projekt zur Wohnbebauung",
+		title: "Umbau und Revovierung",
 		image: building_5,
 		description: `Eine umfassende Wohnbebauung mit dem Bau eines neuen Wohngemeinschaft von der ersten Standorträumung und -vorbereitung bis zum endgültigen Hausbau und der Landschaftsgestaltung`,
 	},
@@ -172,36 +168,7 @@ export const projects = [
 	},
 ];
 
-export const testimonial = [
-	{
-		image: profile2,
-		name: "Samuel Eze",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`,
-	},
-	{
-		image: profile3,
-		name: "Emmanuel Joseph",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-	},
-	{
-		image: profile4,
-		name: "Gloria Chiwendu",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`,
-	},
-	{
-		image: profile5,
-		name: "Precious Stone",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-	},
-];
+
 
 export const blogs = [
 	{
