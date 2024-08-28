@@ -14,7 +14,7 @@ const Achievement = () => {
 	const container = useRef(null);
 	useEffect(() => {
 		const timeOutId = setTimeout(() => {
-			setClients(1000);
+			setClients(100);
 			setProjects(50);
 			setTeams(10);
 			setAwards(10);
