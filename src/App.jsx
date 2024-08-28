@@ -8,6 +8,7 @@ import Blog from "./components/Blog/blog"
 import Contact from "./components/Contact/contact"
 import Footer from "./components/Footer/footer"
 import Logo from "./components/Logo/logo"
+import Achievement from "./components/Achievement/achievement"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <div>
     <Navbar />
     <Header />
+    <Achievement />
     <About />
     <Services />
     <Teams />
