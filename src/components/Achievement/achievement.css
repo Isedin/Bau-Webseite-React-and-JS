@@ -15,8 +15,6 @@
 	padding: 1.2rem;
 	border-radius: var(--radius-3);
 	background: var(--color-ui-secondary);
-	/* box-shadow: 0 0 1
-	/* transition: var(--transition); */
 }
 
 .achievement_container .achievement:hover {
