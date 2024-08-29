@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./achievements.css";
+import "./Achievement.css";
 import { FaAward, FaDiagramProject, FaUsersLine } from "react-icons/fa6";
 import ReactOdometer from "react-odometerjs";
 import { GiExtraTime } from "react-icons/gi";
