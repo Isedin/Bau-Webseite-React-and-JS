@@ -168,8 +168,6 @@ export const projects = [
 	},
 ];
 
-
-
 export const blogs = [
 	{
 		title: "Nachhaltiges Bauen: Bauen für die Zukunft",
@@ -228,9 +226,9 @@ export const blogs = [
 export const contacts = [
 	{
 		name: "Email",
-		value: "info@ebbau-gmbh.de",
+		value: "info@ebbau-gmbh.com",
 		icon: <SiMinutemailer />,
-		href: "mailto: info@ebbau-gmbh.de",
+		href: "mailto: info@ebbau-gmbh.com",
 		buttonTitle: "Email",
 	},
 	{
