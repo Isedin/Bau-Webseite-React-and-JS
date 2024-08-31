@@ -226,9 +226,9 @@ export const blogs = [
 export const contacts = [
 	{
 		name: "Email",
-		value: "info@ebbau-gmbh.com",
+		value: "info@ebbau-gmbh.de",
 		icon: <SiMinutemailer />,
-		href: "mailto: info@ebbau-gmbh.com",
+		href: "mailto: info@ebbau-gmbh.de",
 		buttonTitle: "Email",
 	},
 	{
