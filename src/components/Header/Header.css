@@ -1,7 +1,7 @@
 #header {
 	background: var(--glow-1);
 	position: static !important;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 }
 
 #header::before {
@@ -53,7 +53,7 @@
 	overflow: hidden;
 	border-radius: var(--radius-2);
 	transition: var(--transition);
-	opacity: 0;
+	/* opacity: 0; */
 }
 
 #header .image_container:hover {
@@ -61,7 +61,7 @@
 }
 
 @media (max-width: 900px) {
-	#header .container * {
+	#header .container *{
 		text-align: center;
 	}
 	#header .container > .row {

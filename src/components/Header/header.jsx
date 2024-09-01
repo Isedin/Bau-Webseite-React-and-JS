@@ -28,14 +28,10 @@ const Header = () => {
 				<div className="row">
 					<div className="column">
 						<h1 className="title">
-							Träume bauen, <span className="g-text">Realität schaffen</span>
+							Träume bauen, {" "} <span className="g-text">Realität schaffen</span>
 						</h1>
 						<p className="text_muted description">
-							Wir haben es uns zur Aufgabe gemacht, Ihre Visionen in greifbare
-							Meisterwerke zu verwandeln. Mit jahrelanger Erfahrung und einem
-							Team aus qualifizierten Fachleuten sind wir auf die Bereitstellung
-							hochwertiger Bauleistungen spezialisiert, die auf die
-							individuellen Bedürfnisse jedes Kunden zugeschnitten sind.
+							Wir haben es uns zur Aufgabe gemacht, Ihre Visionen in greifbare Meisterwerke zu verwandeln. Mit jahrelanger Erfahrung und einem Team aus qualifizierten sind wir auf die Bereitstellung hochwertiger spezialisiert, die auf die individuellen Bedürfnisse jedes Kunden zugeschnitten sind.
 						</p>
 						<div className="buttons_container">
 							<Link to="services" className="btn" smooth={true} duration={1000}>
