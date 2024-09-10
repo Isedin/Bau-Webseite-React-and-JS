@@ -240,7 +240,7 @@ export const contacts = [
 		buttonTitle: "Anrufen",
 	},
 	{
-		name: "Mobilnummer",
+		name: "Handynummer",
 		value: "+491622767839",
 		icon: <FaMobileAlt />,
 		href: "tel:+491622767839",
