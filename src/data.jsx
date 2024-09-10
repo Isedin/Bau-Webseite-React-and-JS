@@ -245,7 +245,7 @@ export const contacts = [
 		icon: <FaMobileAlt />,
 		href: "tel:+491622767839",
 		buttonTitle: "Anrufen",
-	}
+	},
 	{
 		name: "Addresse",
 		value: "Veckerhagener Str. 41, 34233 Fuldatal, DE-Hessen",
