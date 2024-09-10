@@ -1,5 +1,6 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaMobileAlt } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
@@ -238,6 +239,13 @@ export const contacts = [
 		href: "tel:+491622768900",
 		buttonTitle: "Anrufen",
 	},
+	{
+		name: "Mobilnummer",
+		value: "+491622767839",
+		icon: <FaMobileAlt />,
+		href: "tel:+491622767839",
+		buttonTitle: "Anrufen",
+	}
 	{
 		name: "Addresse",
 		value: "Veckerhagener Str. 41, 34233 Fuldatal, DE-Hessen",
