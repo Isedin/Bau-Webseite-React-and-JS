@@ -25,7 +25,6 @@ import {
 	qualitätbauen,
 	innovativesbauen,
 } from "./assets";
-// import { TfiMenuAlt } from "react-icons/tfi";
 
 export const navTabs = [
 	{ name: "Home", id: "header" },
@@ -33,7 +32,6 @@ export const navTabs = [
 	{ name: "Dienstleistungen", id: "services" },
 	{ name: "Team", id: "team" },
 	{ name: "Projekte", id: "project" },
-	// { name: "Testimonial", id: "testimonial" },
 	{ name: "Blog", id: "blog" },
 ];
 
@@ -76,7 +74,6 @@ export const services = [
 export const teams = [
 	{
 		name: "Sichtbetonmaurer",
-		// title: "Technician",
 		profile: Sichtbetontreppen,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -91,7 +88,6 @@ export const teams = [
 	},
 	{
 		name: "Eisenflechter",
-		// title: "Technician",
 		profile: baustellensohle,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -106,7 +102,6 @@ export const teams = [
 	},
 	{
 		name: "Schalungsbauer",
-		// title: "Technician",
 		profile: schalungsbauer,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -121,7 +116,6 @@ export const teams = [
 	},
 	{
 		name: "Maurer",
-		// title: "Technician",
 		profile: maurerarbeiten,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
