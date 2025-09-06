@@ -1,5 +1,6 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaMobileAlt } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
@@ -12,10 +13,6 @@ import { GrUserManager } from "react-icons/gr";
 import {
 	schalungsbauer,
 	Sichtbetontreppen,
-	profile2,
-	profile3,
-	profile4,
-	profile5,
 	baustellensohle,
 	maurerarbeiten,
 	building_5,
@@ -28,7 +25,6 @@ import {
 	qualitätbauen,
 	innovativesbauen,
 } from "./assets";
-// import { TfiMenuAlt } from "react-icons/tfi";
 
 export const navTabs = [
 	{ name: "Home", id: "header" },
@@ -36,7 +32,6 @@ export const navTabs = [
 	{ name: "Dienstleistungen", id: "services" },
 	{ name: "Team", id: "team" },
 	{ name: "Projekte", id: "project" },
-	// { name: "Testimonial", id: "testimonial" },
 	{ name: "Blog", id: "blog" },
 ];
 
@@ -79,7 +74,6 @@ export const services = [
 export const teams = [
 	{
 		name: "Sichtbetonmaurer",
-		// title: "Technician",
 		profile: Sichtbetontreppen,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -94,7 +88,6 @@ export const teams = [
 	},
 	{
 		name: "Eisenflechter",
-		// title: "Technician",
 		profile: baustellensohle,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -109,7 +102,6 @@ export const teams = [
 	},
 	{
 		name: "Schalungsbauer",
-		// title: "Technician",
 		profile: schalungsbauer,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -124,7 +116,6 @@ export const teams = [
 	},
 	{
 		name: "Maurer",
-		// title: "Technician",
 		profile: maurerarbeiten,
 		social: [
 			{ name: "Facebook", icon: <CiFacebook />, url: "http://facebook.com" },
@@ -141,7 +132,7 @@ export const teams = [
 
 export const projects = [
 	{
-		title: "Projekt zur Wohnbebauung",
+		title: "Umbau und Revovierung",
 		image: building_5,
 		description: `Eine umfassende Wohnbebauung mit dem Bau eines neuen Wohngemeinschaft von der ersten Standorträumung und -vorbereitung bis zum endgültigen Hausbau und der Landschaftsgestaltung`,
 	},
@@ -169,37 +160,6 @@ export const projects = [
 		title: "Rohbau",
 		image: rohbau,
 		description: `Der Rohbau ist das Fundament für jedes erfolgreiche Bauprojekt – und wir sorgen dafür, dass es solide, präzise und termingerecht ausgeführt wird. Mit unserer langjährigen Erfahrung und unserem Fachwissen im Bereich Rohbau legen wir den Grundstein für Ihr Gebäude, auf den Sie sich verlassen können.`,
-	},
-];
-
-export const testimonial = [
-	{
-		image: profile2,
-		name: "Samuel Eze",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`,
-	},
-	{
-		image: profile3,
-		name: "Emmanuel Joseph",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-	},
-	{
-		image: profile4,
-		name: "Gloria Chiwendu",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea veniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laborisveniam, quis nostrud exercitation ullamco laboris`,
-	},
-	{
-		image: profile5,
-		name: "Precious Stone",
-		review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
 	},
 ];
 
@@ -261,9 +221,9 @@ export const blogs = [
 export const contacts = [
 	{
 		name: "Email",
-		value: "info@eb-bauunternehmen.com",
+		value: "info@ebbau-gmbh.de",
 		icon: <SiMinutemailer />,
-		href: "mailto: info@eb-bauunternehmen.com",
+		href: "mailto: info@ebbau-gmbh.de",
 		buttonTitle: "Email",
 	},
 	{
@@ -271,6 +231,13 @@ export const contacts = [
 		value: "+491622768900",
 		icon: <BsFillTelephoneFill />,
 		href: "tel:+491622768900",
+		buttonTitle: "Anrufen",
+	},
+	{
+		name: "Handynummer",
+		value: "+491622767839",
+		icon: <FaMobileAlt />,
+		href: "tel:+491622767839",
 		buttonTitle: "Anrufen",
 	},
 	{
