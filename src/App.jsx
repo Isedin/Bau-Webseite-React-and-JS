@@ -8,7 +8,6 @@ import Blog from "./components/Blog/blog";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import Logo from "./components/Logo/logo";
-import ScrollToTop from "react-scroll-to-top";
 
 function App() {
   return (
