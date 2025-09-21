@@ -24,7 +24,6 @@ function App() {
         <Footer />
         <Logo />
       </div>
-      <ScrollToTop smooth />
     </>
   );
 }
